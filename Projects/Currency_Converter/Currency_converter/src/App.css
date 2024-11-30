@@ -1,0 +1,111 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.App {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.heading {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h1 {
+  color: #007BFF;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.left, .middle, .right {
+  flex: 1;
+  margin: 0 10px;
+}
+
+h3 {
+  margin-bottom: 5px;
+}
+
+input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+input[type="number"]:focus {
+  border-color: #007BFF;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  outline: none; 
+}
+
+
+.switch {
+  cursor: pointer;
+  background-color: #f30505;
+  padding: 8px;
+  border-radius: 50%;
+  color: white;
+  margin-top: 10px;
+  transition: transform 0.5s ease-in-out;
+}
+.switch:hover {
+  transform: rotate(180deg);
+}
+.result {
+  text-align: center;
+  margin-top: 20px;
+}
+
+button {
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease, transform 0.3s;
+}
+
+button:hover {
+  background-color: #fa0707;
+  transform: scale(1.05); 
+}
+
+p {
+  font-size: 18px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.dropdown {
+  width: 100%;
+  margin-top: 5px;
+  transition: border-color 0.3s ease;
+}
+
+.dropdown:focus {
+  border-color: #007BFF;
+}

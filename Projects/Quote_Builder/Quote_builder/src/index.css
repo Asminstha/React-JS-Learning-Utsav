@@ -1,0 +1,66 @@
+.App {
+  text-align: center;
+  padding: 20px;
+  background-color: beige;
+  font-family: 'Times New Roman', serif;
+  /* min-height: 100vh; */
+  border: 2px solid;
+}
+.div_con {
+  padding: 20px;
+}
+.quote-form {
+  margin-bottom: 20px;
+}
+.quote-form input {
+  margin: 10px;
+  padding: 10px;
+  font-size: 16px;
+}
+.quote-form button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4ddf52;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.quote-form button:hover {
+  background-color: #00ff0d;
+}
+.quote-card-wrapper {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.quote-card {
+  padding: 20px;
+  border-radius: 10px;
+  display: inline-block;
+  text-align: left;
+  min-width: 100px;
+  max-width: 800px;
+}
+.quote-text {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.quote-author {
+  font-size: 18px;
+  text-align: right;
+  font-family: 'Brush Script MT', cursive;
+}
+button {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #0056b3;
+}

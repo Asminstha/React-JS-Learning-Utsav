@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content:center ;
+  align-items: center;
+  padding: 5px;
+}
+
+.input-container {
+  margin-bottom: 10px;
+  border: 2px solid;
+  padding: 30px;
+
+}
+
+.input-field {
+  border-width: 2px;
+  padding: 5px;
+  margin-right: 10px;
+  border: 1px solid;
+}
+
+.toggle-button {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.error-message {
+  font-weight: bold;
+}
+
+.green {
+  color: green;
+  border-color: green;
+}
+
+.red {
+  color: red;
+  border-color: red;
+}

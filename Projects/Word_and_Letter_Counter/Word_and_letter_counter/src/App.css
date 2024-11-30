@@ -1,0 +1,19 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-color: #f0f4f8;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 600px;
+  margin: auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#top {
+  color: #333;
+}
+
+h2 {
+  color: #555;
+  margin-bottom: 20px;
+}

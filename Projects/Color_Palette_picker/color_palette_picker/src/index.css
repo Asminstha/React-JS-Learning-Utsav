@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+body {
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.App {
+  text-align: center;
+  background-color: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 400px;
+}
+.color-picker {
+  margin-bottom: 20px;
+}
+.color-picker input {
+  margin-right: 10px;
+}
+.palette {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px 0;
+  gap: 10px;
+}
+.color-item {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.color-box {
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+.delete-btn {
+  margin-left: 8px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  color: #ff5c5c;
+  padding: 5px;
+  transition: transform 0.2s;
+}
+.delete-btn:hover {
+  transform: scale(1.1);
+}
+.btn{
+  display: flex;
+  gap: 20px;
+}
+.export-btn {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.export-btn:hover {
+  background-color: #45a049;
+}

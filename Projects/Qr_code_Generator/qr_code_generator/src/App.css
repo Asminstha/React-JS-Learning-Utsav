@@ -1,0 +1,100 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f4f8;
+  margin: 0;
+  padding: 20px;
+}
+
+.App {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  background: white;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.input-box {
+  margin-bottom: 20px;
+}
+
+.gen {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+input[type="text"],
+input[type="color"],
+input[type="range"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  margin-right: 10px;
+}
+
+input[type="range"] {
+  width: 80%;
+}
+
+.button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+.extra {
+  margin-top: 20px;
+}
+
+h5 {
+  margin-bottom: 5px;
+}
+
+.output-box {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.output-box img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a button {
+  background-color: #fd0505;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+a button:hover {
+  background-color: #1404f1;
+}
+
+p {
+  color: #555;
+  text-align: center;
+}
